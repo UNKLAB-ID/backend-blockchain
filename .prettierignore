@@ -1,0 +1,48 @@
+# Prettier ignore file
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+coverage/
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env*
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.min.js
+*.min.css
+
+# Documentation
+docs/generated/
